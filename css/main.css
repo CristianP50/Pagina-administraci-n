@@ -780,13 +780,12 @@ footer .footer-redes a:hover{
     /* ---baner principal--- */
 
     .main .banner-principal .texto-banner h1{
-        font-size: 1em;
-        display: none;
+        font-size: 0.5em;
+        margin: 0;
     }
 
     .main .banner-principal .texto-banner h2{
-        font-size: 1.8em;
-        margin-bottom: 30px;
+        font-size: 3em;
     }
 
     .logo-frontal{
