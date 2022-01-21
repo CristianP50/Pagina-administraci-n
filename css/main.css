@@ -23,7 +23,7 @@ body{
 }
 
 .titulo-seccion h2{
-    color: #dd741d;
+    color: #3413ac;
     font-size: 3.125rem;
     margin-bottom: 15px;
     font-weight: 500;
@@ -112,7 +112,7 @@ body{
 }
 
 .menu-principal a:hover, .stop-redes a:hover{
-    color: #dd741d;
+    color: #3413ac;
 }
 
 .fixed-header{
@@ -137,7 +137,7 @@ body{
 }
 
 .fixed-header .menu-principal a:hover, .stop-redes a:hover{
-    color: #dd741d;
+    color: #3413ac;
 }
 
 /* menu movil */
@@ -208,14 +208,14 @@ body{
     text-decoration: none;
     display: inline-block;
     padding: 8px 20px;
-    background: #dd741d;
+    background: #3413ac;
     color: #fff;
     transition: all .7s ease;
 }
 
 .main .banner-principal .texto-banner a:hover{
     background: #fff;
-    color: #dd741d;
+    color: #3413ac;
 }
 
 
@@ -273,7 +273,7 @@ body{
     height: 50px;
     top: 20px;
     right: 20px;
-    background: #dd741d;
+    background: #3413ac;
     text-align: center;
     cursor: pointer;
 }
@@ -366,7 +366,7 @@ body{
 }
 
 .main .contenedor-slider .btn-anterior i:hover, .main .contenedor-slider .btn-siguiente i:hover{
-    color: #dd741d;
+    color: #3413ac;
 }
 
 /* Nuestro equipo */
@@ -413,7 +413,7 @@ body{
 .main .nuestro-equipo .equipo .persona-equipo .texto h3{
     font-size: 1.3rem;
     font-weight: 500;
-    color: #dd741d;
+    color: #3413ac;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo .texto h4{
@@ -529,7 +529,7 @@ body{
 .main .contenedor .contenedor-formulario .formulario h2{
     font-size: 1.37rem;
     line-height: 24px;
-    color: #dd741d;
+    color: #3413ac;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -577,9 +577,9 @@ body{
 .main .contenedor .contenedor-formulario .formulario form input[type="submit"]{
     width: 100%;
     border: none;
-    border: 1px solid #dd741d;
+    border: 1px solid #3413ac;
     padding: 8px;
-    background: #dd741d;
+    background: #3413ac;
     color: #fff;
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
@@ -590,7 +590,7 @@ body{
 
 .main .contenedor .contenedor-formulario .formulario form input[type="submit"]:hover{
     background: #fff;
-    color: #dd741d;
+    color: #3413ac;
 }
 
 .main .contenedor .contenedor-formulario .foto{ 
@@ -637,7 +637,7 @@ footer .footer-redes a{
 }
 
 footer .footer-redes a:hover{
-    color: #dd741d;
+    color: #3413ac;
 }
 
 /* ---------------------Media Queries -------------------- */
