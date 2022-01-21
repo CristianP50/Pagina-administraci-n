@@ -775,13 +775,19 @@ footer .footer-redes a:hover{
     /* ---baner principal--- */
 
     .main .banner-principal .texto-banner h1{
-        font-size: 4rem;
+        font-size: 1em;
+        display: none;
+    }
+
+    .main .banner-principal .texto-banner h2{
+        font-size: 1.8em;
     }
 
     /* ...titulo secciones-- */
 
     .titulo-seccion h2{
-        font-size: 2.125rem;
+        font-size: 0.3em;
+        display: none;
     }
 
     /* ----proyectos--- */
