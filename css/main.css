@@ -70,9 +70,10 @@ body{
 .menu-bar-pc{
     width: 100%;
     min-height: 68px;
+    background: rgba(255, 255, 255, 0.24);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding: 0 36px;
-    background: transparent;
+    /* background: transparent; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,6 +81,7 @@ body{
     position: relative;
     z-index: 100;
 }
+
 
 .logo{
     display: inline-block;
@@ -177,7 +179,7 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0, 0, 0, 0.705);
 }
 
 .main .banner-principal .texto-banner{
@@ -310,12 +312,14 @@ body{
 .main .acerca-de .texto-acerca-de{
     width: 66.66%;
     text-align: left;
+    text-align: justify;
 }
 
 .main .acerca-de .texto-acerca-de p{
     color: #979797;
     font-size: 1rem;
     font-weight: 400;
+    text-align: justify;
 }
 
 /* Slider */
@@ -454,6 +458,14 @@ body{
     justify-content: center;
 }
 
+.main .info-extra .contenedor .info .contenido-info p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+}
+
 .main .info-extra .contenedor .info .contenido-info:first-child{
     margin-bottom: 30px;   
 }
@@ -484,8 +496,8 @@ body{
     line-height: 24px;
     color: #fff;
     text-align: center;
-    font-weight: 300;
-    margin-bottom: 50px;
+    font-weight: 700;
+    margin-bottom: 100px;
 }
 
 .main .info-extra .contenedor .info .contenido-info .texto-info p{
@@ -495,12 +507,13 @@ body{
 }
 
 .main .info-extra .contenedor .foto{
-    width: 50%;
+    width: 44%;
     height: 300px;
     box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.5);
     background-image: url(../img/info-foto.jpg);
     background-position: center;
     background-size: cover;
+    margin-left: 64px;
 }
 
 /* --contacto--- */
@@ -641,7 +654,13 @@ footer .footer-redes a:hover{
 }
 
 .logo-frontal{
-    display: none;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.texto-banner h1{
+    position: relative;
+    bottom: 400px;
 }
 
 
@@ -782,16 +801,18 @@ footer .footer-redes a:hover{
     .main .banner-principal .texto-banner h1{
         font-size: 0.5em;
         margin: 0;
+        position: relative;
+        bottom: 150px;
     }
+
 
     .main .banner-principal .texto-banner h2{
         font-size: 3em;
     }
 
     .logo-frontal{
-        width: 80px;
-        margin: 0 auto;
-        display: block;
+        width: 100%;
+    
     }
 
     /* ...titulo secciones-- */
@@ -839,6 +860,10 @@ footer .footer-redes a:hover{
 
     .main .info-extra .contenedor .info .contenido-info:first-child{
         margin-bottom: 40px;
+    }
+
+    .info-extra .info-title{
+        font-size: 1.1rem;
     }
 
 }
