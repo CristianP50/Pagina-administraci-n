@@ -443,8 +443,6 @@ body{
 .main .info-extra .contenedor{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .main .info-extra .contenedor .info{
@@ -507,13 +505,12 @@ body{
 }
 
 .main .info-extra .contenedor .foto{
-    width: 44%;
-    height: 300px;
-    box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.5);
-    background-image: url(../img/info-foto.jpg);
+    width: 50%;
+    height: 700px;
     background-position: center;
     background-size: cover;
-    margin-left: 64px;
+    margin-left: 20px;
+    
 }
 
 /* --contacto--- */
